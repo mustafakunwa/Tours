@@ -1,0 +1,23 @@
+{
+  "name": "naturetours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w --usePolling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafakunwa/Tours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafakunwa/Tours/issues"
+  },
+  "homepage": "https://github.com/mustafakunwa/Tours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
